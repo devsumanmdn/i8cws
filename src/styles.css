@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ogvjs1 {
+  max-width: 100%;
+}
+
+canvas {
+  max-width: 100%;
+}
