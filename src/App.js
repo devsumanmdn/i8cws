@@ -10,7 +10,7 @@ export default function App() {
     ogv.OGVLoader.base = "/ogvjs-1.8.4";
     const player = new ogv.OGVPlayer({ debug: true, debugFilter: /demuxer/ });
     rootContainer.current.appendChild(player);
-    player.src = "/sample-30s.webm";
+    player.src = "/flower.webm";
     player.muted = true;
     player.play();
     console.log({ player, ogv });
